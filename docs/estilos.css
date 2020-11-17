@@ -1,0 +1,68 @@
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.contenedor-principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 25px;
+    padding-bottom: 40px;
+
+    width: 90%;
+    margin-left: 5%;
+    background-color: #E75480;
+    border: 1.5px solid black;
+    border-radius: 5px;
+}
+
+
+.contenedor-imgs {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    width: 100%;
+    height: 300px;
+    margin-top: 30px;
+    overflow: hidden;
+
+}
+
+
+.img-cumple {
+width: 100%;
+margin: 5px 10px;
+padding: 10px 10px;
+/* border: 1px solid rgb(220, 209, 209); */
+animation: presentar 2s ease-out ;
+}
+
+@keyframes presentar {
+
+from{
+transform: scale(1.5);
+}
+
+}
+
+.abs {
+    position: absolute
+}
+
+.leyenda{
+    font-family: 'Lato', sans-serif;
+    margin: 0px 30px 30px 30px;
+    color: rgb(255,255,255,0.9);
+}
+
+
+.leyenda span{
+    font-size: .6rem;
+
+}
+
